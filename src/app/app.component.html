@@ -38,7 +38,7 @@
 <p>{{person.name}}</p>
 <input required #ageInput="ngModel" max="18" min="13" type="number" [(ngModel)]="person.age"/>
 <p> valid: {{ageInput.valid}}</p>
-
+<a href="https://hubs.ly/Q01psTqs0">seguimiento</a>
 
 <h2>*ngIf</h2>
 
@@ -50,7 +50,13 @@
     <P>Bloque de else</P>
 </ng-template>
 
-
+<h2>*ngSwitch</h2>
+<input required type="text" [(ngModel)]="person.name"/>
+<div [ngSwitch]="person.name">
+    <p *ngSwitchCase="'Jhonnys'"> Hola, soy Jhonnys</p>
+    <p *ngSwitchCase="'kalel'"> Hola, soy kalel</p>
+    <p *ngSwitchDefault>No hace match</p>
+</div>
 
 <h2>*ngFor para arrays</h2>
 

@@ -48,7 +48,7 @@ export class AppComponent {
 
   
   person ={
-    name: 'Jhonnys De Avila',
+    name: 'Jhonnys',
     age: 50,
     img: 'https://images.unsplash.com/photo-1662733625046-ac900bb77091?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2NDY0NDczMw&ixlib=rb-1.2.1&q=80&w=1080',
     
